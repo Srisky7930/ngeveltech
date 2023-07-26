@@ -1,0 +1,91 @@
+.card {
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 400px;
+  flex-wrap: wrap;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.details-card {
+  margin-left: 10px;
+}
+
+.image-url {
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .image-url {
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.title-name {
+  color: #f57d1b;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+  .title-name {
+    color: #f57d1b;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: 'roboto';
+  }
+}
+
+.price-name {
+  color: #fa0718;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rating {
+  color: #f57d1b;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .rating {
+    display: none;
+  }
+}
+
+.brand-name {
+  color: #f57d1b;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .brand-name {
+    display: none;
+  }
+}

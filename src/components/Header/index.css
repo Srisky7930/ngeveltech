@@ -1,0 +1,50 @@
+.header-card {
+  background-color: #9c9c9c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 20px;
+  color: orange;
+}
+
+@media screen and (max-width: 576px) {
+  .company-name {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-left: 40px;
+    color: orange;
+  }
+}
+
+.cart {
+  background-color: transparent;
+  border-width: 0px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 20px;
+  color: orange;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .cart {
+    background-color: transparent;
+    border-width: 0px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-right: 40px;
+    color: orange;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
